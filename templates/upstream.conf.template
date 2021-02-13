@@ -1,4 +1,3 @@
 upstream sks_backend {
-    server node0.${SERVICES_DOMAIN}:${SKS_HKP_PORT};
-    server node1.${SERVICES_DOMAIN}:${SKS_HKP_PORT};
+    server sks:${SKS_HKP_PORT};
 }
